@@ -44,3 +44,6 @@ apt_preference "chef" do
   pin "version 10.16.2-1"
   pin_priority "700"
 end
+
+# Package to test newly added repository and pin
+package "chef"
